@@ -8,7 +8,7 @@ function App() {
   // Step 2: Use `useEffect` to call a function that fetches a joke when the component mounts
   useEffect(() => {
     console.log('use effect')
-  },[])
+  }, [])
 
   // Step 3: Define a function that fetches a programming joke from an API
   // - Start by setting `loading` to true
